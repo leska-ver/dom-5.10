@@ -1,0 +1,6 @@
+animation: skale alternate 3s linear infinite;
+}
+
+@keyframes skale {
+  0% {
+    -webkit-transform: scale(1);
