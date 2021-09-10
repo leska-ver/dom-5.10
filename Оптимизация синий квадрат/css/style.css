@@ -1,0 +1,28 @@
+.block {
+  margin-top: -20px;
+  margin-left: -20px;
+  width: 200px;
+  height: 200px;
+  background-color: navy;
+  animation: skale alternate 3s linear infinite;
+}
+
+@keyframes skale {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+50% {
+    -webkit-transform: scale(2.25, 2.25);
+    -ms-transform: scale(2.25, 2.25);
+    transform: scale(2.25, 2.25);
+    }
+  
+100% {
+    -webkit-transform: scale(1);    
+    -ms-transform: scale(1);    
+    transform: scale(1);
+    }
+  }
